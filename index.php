@@ -1,18 +1,24 @@
 <?php
     
-    //Variables. PHP NO ES FUERTEMENTE TIPADO NO NECESITA TIPO DE DATO.
+    //Variables. PHP NO ES FUERTEMENTE TIPADO NO NECESITA TIPO DE DATO.\
+    //Declaro String = cadena de texto
     $nombre ="Ricardo";
     $nombre2 ="Sebastian";
     $apellido = "Boggio";
     $apellido2 = "Echenique";
 
+    
+    //Declaro numericos
     $num1=10;
     $num2=3;
+
+    //Operaciones aritmeticas con PHP
     $suma = $num1+$num2;
     $multiplicacion = $num1*$num2;
     $division=$num1/$num2;
     $modulo=$num1%$num2;
 
+    //Declaro booleanos
     $condicion=5>1;
     $false=false;
     
@@ -40,7 +46,7 @@
 <h1> 
     <!-- TRABAJAMOS CON PHP -->
         <?php  
-        echo var_dump($nombre);
+        echo var_dump($nombre); //Muestra el tipo de dato + valor
         echo "Mi nombre es $nombre<br>";
         echo "Mi otro nombre es $nombre2<br>";
         echo "Mi apellido es $apellido<br>";
